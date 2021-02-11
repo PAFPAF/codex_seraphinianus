@@ -5,7 +5,6 @@ import os
 import random
 import tweepy
 import time
-from ..credentials import *
 
 twitter_consumer_key = environ['twitter_consumer_key']
 twitter_consumer_secret = environ['twitter_consumer_secret']
