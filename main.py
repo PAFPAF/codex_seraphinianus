@@ -40,7 +40,7 @@ while True:
         all_files.remove(file_name)
 
 
-        sleep_until = "17:50PM"  # Sets the time to sleep until.
+        sleep_until = "5:50PM"  # Sets the time to sleep until.
         sleep_until = time.strftime("%m/%d/%Y " + sleep_until,
         time.localtime())  # Adds todays date to the string sleep_until.
         now_epoch = time.time()  # Current time in seconds from the epoch time.
